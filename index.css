@@ -365,16 +365,17 @@ footer{
           display: none;
       }
       .general{
-          background-color: white;
+    background-color: rgb(251, 248, 243);
       }
       .general-content{
-          background-color: white;
+    background-color: rgb(251, 248, 243);
           height: fit-content;
       }
       .main-content{
           display: flex;
           flex-flow: column;
-          background-color: white;
+    background-color: rgb(251, 248, 243);
+          gap: 10PX;
 
       }
       .analytics-img{
@@ -399,7 +400,7 @@ footer{
           font-size: 14.1px;
       }
       .features-content{
-          margin-top: 620px;
+          margin-top: 550px;
       }
       .features{
           width: 80%;
@@ -473,3 +474,147 @@ footer{
         padding-left: -20px;
       }
   }
+
+@media (min-width: 500px) and (max-width: 767px){
+  .menu{
+    display: none;
+}
+.general{
+  background-color: rgb(251, 248, 243);
+    }
+    .general-content{
+  background-color: rgb(251, 248, 243);
+        height: fit-content;
+    }
+    .main-content{
+        display: flex;
+        flex-flow: column;
+  background-color: rgb(251, 248, 243);
+        gap: 10PX;
+
+    }
+    .analytics-img{
+        order: 1;
+        width: 100%;
+        height: 700px;
+    }
+    .analytics-intro{
+        order: 2;
+        background-color: rgb(251, 248, 243);
+        width: 100%;
+        height: fit-content;
+    }
+
+    .features-content{
+      margin-top: 880px;
+  }
+  .features{
+    width: 80%;
+}
+.features-paragraph{
+    width: 60%;
+    font-size: 27px;
+}
+.features-images{
+    margin-top: 10px;
+    width: 80%;
+}
+.features-images div{
+    width: 100%;
+    height: fit-content;
+    word-spacing: 5px;
+    font-size: 15px;
+    line-height: 20px;
+    padding: 15px;
+}
+.f-border1 img{
+    width: 5%; height: 10%;
+}
+.analy{
+    margin-top: 6px;
+    margin-bottom: 8px;
+}
+
+.f-border2 img{
+    width: 5%; height: 10%;
+}
+.f-border3 img{
+    width: 5%; height: 10%;
+}
+.f-border4 img{
+    width: 5%; height: 10%;
+}
+
+.what-sections{
+  width: 100%;
+  margin-top: 25px;
+  /* border: 2px solid black; */
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  gap: 60px;
+}
+.what-first img{
+  height: 220px;
+  width: 130%;
+}
+.what-middle img{
+  height: 300px;
+  width: 130%
+}
+.what-last img{
+  height: 220px;
+  width: 100%;
+}
+}
+
+@media (min-width: 768px) and (max-width: 1200px){
+.general{
+background-color: rgb(251, 248, 243);
+}
+.general-content{
+background-color: rgb(251, 248, 243);
+    height: 235vh;
+}
+.main-content{
+    display: flex;
+    /* flex-flow: column; */
+background-color: rgb(251, 248, 243);
+    gap: 10PX;
+
+}
+.analytics-img{
+    /* order: 1; */
+    width: 100%;
+    height: 200vh;
+    background-color: rgb(251, 248, 243);
+}
+.analytics-intro{
+    /* order: 2; */
+    margin-top: 40px;
+    background-color: rgb(251, 248, 243);
+    width: 100%;
+    height: 150vh;
+}
+
+.btns{
+    /* flex-flow: column; */
+    width: 80%;
+}
+.btns div{
+    width: 65%;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.relative-pic{
+  margin-top: -10px;
+}
+.join-comment{
+    width: 100%;
+    font-size: 14.1px;
+}
+
+}
