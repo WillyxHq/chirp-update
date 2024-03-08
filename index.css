@@ -357,7 +357,7 @@ footer{
 
 
 
-  @media (min-width: 0px) and (max-width: 499px){
+  @media (min-width: 0px) and (max-width: 575px){
       .menu{
           display: block;
       }
@@ -475,7 +475,7 @@ footer{
       }
   }
 
-@media (min-width: 500px) and (max-width: 767px){
+@media (min-width: 576px) and (max-width: 767px){
   .menu{
     display: none;
 }
@@ -568,7 +568,7 @@ footer{
 }
 }
 
-@media (min-width: 768px) and (max-width: 1200px){
+@media (min-width: 768px) {
 .general{
 background-color: rgb(251, 248, 243);
 }
